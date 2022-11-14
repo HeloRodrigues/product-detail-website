@@ -255,7 +255,6 @@ body {
     color: var(--dark-electric-blue);
     opacity: 0.8;
     pointer-events: none;
-    right: 15px;
 }
 
 .product-content {

@@ -72,7 +72,7 @@
             <section class="product" aria-label="product">
                 <div class="container">
                     <div class="product-slides">
-                        <div class="slider-banner">
+                        <div class="slider-banner" data-slider>
                             <figure class="product-banner">
                                 <img src="images/product-1.png" width="600" height="600" loading="lazy"
                                     alt="nike sneaker" class="img-cover">
@@ -90,10 +90,10 @@
                                     alt="nike sneaker" class="img-cover">
                             </figure>
                         </div>
-                        <button class="slide-btn prev" aria-label="previous image">
+                        <button class="slide-btn prev" aria-label="previous image" data-prev>
                             <ion-icon name="chevron-back" aria-hidden="true"></ion-icon>
                         </button>
-                        <button class="slide-btn next" aria-label="next image">
+                        <button class="slide-btn next" aria-label="next image" data-next>
                             <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
                         </button>
                     </div>
@@ -106,17 +106,17 @@
                         </p>
 
                         <div class="wrapper">
-                            <span class="price">399 kr</span>
+                            <span class="price" data-total-price>399 kr</span>
                             <span class="badge">50%</span>
                             <del class="del">799 kr</del>
                         </div>
                         <div class="btn-group">
                             <div class="counter-wrapper">
-                                <button class="counter-btn">
+                                <button class="counter-btn" data-minus>
                                     <ion-icon name="remove-outline"></ion-icon>
                                 </button>
-                                <span class="span">1</span>
-                                <button class="counter-btn">
+                                <span class="span" data-quantity>1</span>
+                                <button class="counter-btn" data-plus>
                                     <ion-icon name="add-outline"></ion-icon>
                                 </button>
                             </div>
